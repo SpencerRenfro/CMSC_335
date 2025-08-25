@@ -1,9 +1,20 @@
-package W2.P1;
+/*
+Menu.java
+Spencer Renfro
+8-23-2025
+Purpose:
+Prints menu
+Gets user input
+Constructs shape
+Asks if user wants to continue
+If yes, repeats
+If no, prints terminate message and exits
+*/
 
 import java.util.Scanner;
 import java.time.LocalDateTime;
 import java.lang.StringBuilder;
-import W2.P1.Shapes.*;
+import Shapes.*;
 
 
 public class Menu {
@@ -169,14 +180,7 @@ public class Menu {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         boolean running = true;
- /*
-        Prints menu
-        Gets user input
-        Constructs shape
-        Asks if user wants to continue
-        If yes, repeats
-        If no, prints terminate message and exits
-*/
+
         while (running) {
             printMenu();
             int choice = sc.nextInt();

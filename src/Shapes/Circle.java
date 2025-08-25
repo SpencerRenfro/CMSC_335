@@ -1,4 +1,11 @@
-package W2.P1.Shapes;
+/*
+Circle.java
+Spencer Renfro
+8-23-2025
+Purpose: Create a Circle class that extends TwoDimensionalShape and implements getArea()
+*/
+
+package Shapes;
 
 public class Circle extends TwoDimensionalShape {
     private final double radius;

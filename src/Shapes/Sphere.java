@@ -1,4 +1,10 @@
-package W2.P1.Shapes;
+/*
+Sphere.java
+Spencer Renfro
+8-23-2025
+Purpose: Create a Sphere class that extends ThreeDimensionalShape and implements getVolume()
+*/
+package Shapes;
 
 public class Sphere extends ThreeDimensionalShape {
     private final double radius;

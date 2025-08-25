@@ -1,4 +1,11 @@
-package W2.P1.Shapes;
+/*
+Rectangle.java
+Spencer Renfro
+8-23-2025
+Purpose: Create a Rectangle class that extends TwoDimensionalShape and implements getArea()
+*/
+
+package Shapes;
 
 public class Rectangle extends TwoDimensionalShape {
     private final double length;

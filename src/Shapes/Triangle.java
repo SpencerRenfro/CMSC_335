@@ -1,4 +1,11 @@
-package W2.P1.Shapes;
+/*
+Triangle.java
+Spencer Renfro
+8-23-2025
+Purpose: Create a Triangle class that extends TwoDimensionalShape and implements getArea()
+*/
+
+package Shapes;
 
 public class Triangle extends TwoDimensionalShape {
     private final double base;
