@@ -5,9 +5,6 @@ public class Rectangle extends TwoDimensionalShape {
     private final double width;
 
     public Rectangle(double length, double width) {
-        if (length <= 0 || width <= 0) {
-            throw new IllegalArgumentException("Length and width must be positive.");
-        }
         this.length = length;
         this.width = width;
     }

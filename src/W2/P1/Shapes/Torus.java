@@ -5,9 +5,6 @@ public class Torus extends ThreeDimensionalShape {
     private final double minorRadius; // r
 
     public Torus(double majorRadius, double minorRadius) {
-        if (majorRadius <= 0 || minorRadius <= 0) {
-            throw new IllegalArgumentException("Major and minor radii must be positive.");
-        }
         this.majorRadius = majorRadius;
         this.minorRadius = minorRadius;
     }
